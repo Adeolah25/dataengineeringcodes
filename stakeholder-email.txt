@@ -1,0 +1,28 @@
+Subject: Data Analysis Findings & Next Steps
+
+Hi (Client Stakeholder's name),
+
+I’ve completed an initial analysis of our data and wanted to share key findings, trends, and a few areas where we need further clarification.
+
+Key Data Quality Issues:
+- Missing Data: Several fields have missing values, including `BIRTH_DATE` (3.7%), `STATE` (4.8%), and `LANGUAGE` (30.5%) in the users dataset, as well as `BARCODE` (11.5%) in transactions and `BRAND` (26.8%) in products.
+- Inconsistent Entries: `FINAL_QUANTITY` in transactions contains non-numeric values like “zero,” which could affect calculations.
+- Placeholder Data: A significant portion of the `MANUFACTURER` field in products is labeled as "PLACEHOLDER MANUFACTURER," which may indicate test data.
+
+Interesting Trend:
+We identified that the top 5% of Fetch users (power users) are responsible for a disproportionately high volume of both receipts scanned and total spending. Understanding what drives their engagement could provide valuable insights for customer retention strategies.
+
+Additional Finding:
+The leading brand in the Dips & Salsa category accounts for the highest total sales in that segment. This insight can help refine marketing and partnership strategies for competitive positioning.
+
+Next Steps & Requests:
+To improve our analysis and make data-driven decisions, we need:
+1. Clarification on missing and placeholder data: Are these expected gaps, or do we need to request updated records?
+2. Confirmation on data definitions: For instance, should we treat “zero” as missing in `FINAL_QUANTITY`, or does it have specific meaning?
+3. Business insights on power users: Do we have existing strategies targeting this segment, or should we explore retention initiatives?
+
+Looking forward to your thoughts. Let me know a good time to discuss further!
+
+Best,  
+Adeolah
+Data Analyst

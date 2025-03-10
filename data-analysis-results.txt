@@ -1,0 +1,29 @@
+Users Dataset
+    Missing Data Issues:
+    BIRTH_DATE: ~3.7% missing.
+    STATE: ~4.8% missing.
+    LANGUAGE: ~30.5% missing.
+    GENDER: ~5.9% missing.
+Potential Data Quality Issues:
+    Dates are stored as strings instead of datetime.
+    BIRTH_DATE could contain invalid or incorrect dates.
+    Some users might not have specified their language, leading to missing values.
+Transactions Dataset
+Missing Data Issues:
+    BARCODE: ~11.5% missing.
+Potential Data Quality Issues:
+    FINAL_QUANTITY contains values like "zero" instead of numeric 0.
+    FINAL_SALE might have missing values or incorrect formatting.
+Products Dataset
+Missing Data Issues:
+    CATEGORY_1: ~0.01% missing.
+    CATEGORY_2: ~0.16% missing.
+    CATEGORY_3: ~7.1% missing.
+    CATEGORY_4: ~92% missing.
+    MANUFACTURER: ~26.8% missing.
+    BRAND: ~26.8% missing.
+    BARCODE: ~0.5% missing.
+Potential Data Quality Issues:
+    CATEGORY_4 is largely empty—may not be useful.
+    Some manufacturers are listed as "PLACEHOLDER MANUFACTURER", indicating possible test or filler data.
+    Many brands are missing, which could impact brand-based analysis.
